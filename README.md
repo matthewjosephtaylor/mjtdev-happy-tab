@@ -9,7 +9,7 @@ I'm an 'intellectual worker'. My 'mind space' needs to be as free and clear of d
 
 ## What
 
-- Create a 'new tab' window that I can control and customize to my liking (blank page for now, maybe more later)
+- Create a 'new tab' window that I can control and customize to my liking (blank page with a random quote for now, maybe more later)
 
 ## Alternatives
 - Use Chromium
