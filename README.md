@@ -29,3 +29,7 @@ $ npm run build
 
 ## Thanks
 Quotes from: https://gist.github.com/JakubPetriska/060958fd744ca34f099e947cd080b540
+
+## Blame
+
+Matt Taylor https://mjt.dev
