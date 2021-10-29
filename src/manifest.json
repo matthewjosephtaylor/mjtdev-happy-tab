@@ -1,0 +1,18 @@
+{
+  "name": "Happy Tab",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["asset/*"],
+      "use_dynamic_url": true
+    }
+  ],
+  "action": {}
+}

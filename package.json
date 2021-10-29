@@ -1,0 +1,20 @@
+{
+  "name": "@mjtdev/happy-tab",
+  "version": "1.0.0",
+  "description": "@mjtdev",
+  "scripts": {
+    "clean": "rm -rf dist/*",
+    "build": "./script/build",
+    "watch": "watch ./src 'npm run build' ./node_modules 'npm run build'",
+    "test": "node dist/TEST.js"
+  },
+  "keywords": [],
+  "author": "@mjtdev",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^4.3.4"
+  },
+  "dependencies": {
+    "@types/chrome": "^0.0.162"
+  }
+}

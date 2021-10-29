@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+
+set -e
+
+SCRIPT_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+declare -r PROJECT_DIR="${SCRIPT_DIR}/../"
+
+clear
+
+cd "${PROJECT_DIR}"
+
+mkdir -p ./dist/asset
+npx tsc src/background/index.ts --outfile ./dist/background.js
+npx tsc -b
+
+cp src/index.html dist/
+cp src/manifest.json dist/
+
+cp asset/* dist/asset
+
+echo "build good :)"
+
+date
