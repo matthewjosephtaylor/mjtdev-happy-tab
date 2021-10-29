@@ -11,7 +11,6 @@ clear
 cd "${PROJECT_DIR}"
 
 mkdir -p ./dist/asset
-npx tsc src/background/index.ts --outfile ./dist/background.js
 npx tsc -b
 
 cp src/index.html dist/

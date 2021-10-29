@@ -11,6 +11,12 @@ I'm an 'intellectual worker'. My 'mind space' needs to be as free and clear of d
 
 - Create a 'new tab' window that I can control and customize to my liking (blank page with a random quote for now, maybe more later)
 
+If there is interest, I'll look into uploading to the Google Store, but there are already several in existence if one is looking for an easy solution.
+
+Recommend using this as a template project for creating your _own_ extension to customize.
+
+It is written in typescript with only the 'chrome type' and typescript itself as a dependency.
+
 ## Alternatives
 - Use Chromium
 - Use Brave

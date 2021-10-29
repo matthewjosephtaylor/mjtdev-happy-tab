@@ -12,9 +12,8 @@
   "author": "@mjtdev",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^4.3.4"
-  },
-  "dependencies": {
+    "typescript": "^4.3.4",
     "@types/chrome": "^0.0.162"
-  }
+  },
+  "dependencies": {}
 }
