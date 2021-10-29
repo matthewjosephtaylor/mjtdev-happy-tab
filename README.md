@@ -1,6 +1,6 @@
 # Happy Tab
 
-[screenshot](./marketing/happy-tab-screenshot.png)
+![screenshot](./marketing/happy-tab-screenshot.png)
 
 ## Why
 On Friday Oct 29th 2021 Google broke its brilliant design UX and started showing advertisements on the google landing page and the new Chrome tab window.
